@@ -11,11 +11,12 @@ setup(
     
     packages=find_packages(),
     setup_requires=[
-    'numpy',
-    'h5py'],
+    'numpy'],
     install_requires=[
-    'obspy'
-    'scipy'
+    'numpy',
+    'h5py',
+    'pandas',
+    'scipy',
     'scikit-learn'
     ], 
    )

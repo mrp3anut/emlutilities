@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import h5py
 import os
-from emlutilities import resize, result_metrics, compare
+from emlutilities.core import resize, result_metrics, compare
 
 def test_resizer():
 
